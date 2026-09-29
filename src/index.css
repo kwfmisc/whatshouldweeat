@@ -1,0 +1,24 @@
+:root {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #173a30;
+  background-color: #edf3ec;
+}
+
+html { min-width: 320px; min-height: 100%; }
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #edf3ec;
+  background-image: radial-gradient(#c4d2c2 0.65px, transparent 0.65px);
+  background-size: 17px 17px;
+}
+
+button { -webkit-tap-highlight-color: transparent; }
+::selection { color: #fbfcf7; background: #327253; }
